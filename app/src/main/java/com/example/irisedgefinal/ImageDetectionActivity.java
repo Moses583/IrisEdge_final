@@ -257,8 +257,7 @@ public class ImageDetectionActivity extends AppCompatActivity implements Texture
                     vibratePhone();
                     canvas.drawText(label, xmin, ymin, paint);
                     Toast.makeText(this, label, Toast.LENGTH_SHORT).show();
-                }
-                // Optionally, overlay text with class label and confidence score
+                }                // Optionally, overlay text with class label and confidence score
 
             }
         }
